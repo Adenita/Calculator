@@ -1,0 +1,22 @@
+.board {
+    display: block;
+}
+
+.square {
+    width: 2em;
+    height: 2em;
+    margin: 1px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.square:hover {
+    background-color: #e0e0e0;
+}
+
+.square:active {
+    background-color: #d0d0d0;
+}
