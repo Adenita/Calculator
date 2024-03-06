@@ -1,30 +1,31 @@
 import './Board.css';
+import Button from "../ButtonComponent/Button";
 export default function Board() {
     return (
         <div className="board">
             <div>
-                <button className="square">7</button>
-                <button className="square">8</button>
-                <button className="square">9</button>
-                <button className="square">/</button>
+                <Button value="7"></Button>
+                <Button value="8"></Button>
+                <Button value="9"></Button>
+                <Button value="/"></Button>
             </div>
             <div>
-                <button className="square">4</button>
-                <button className="square">5</button>
-                <button className="square">6</button>
-                <button className="square">x</button>
+                <Button value="4"></Button>
+                <Button value="5"></Button>
+                <Button value="6"></Button>
+                <Button value="x"></Button>
             </div>
             <div>
-                <button className="square">1</button>
-                <button className="square">2</button>
-                <button className="square">3</button>
-                <button className="square">-</button>
+                <Button value="1"></Button>
+                <Button value="2"></Button>
+                <Button value="3"></Button>
+                <Button value="-"></Button>
             </div>
             <div>
-                <button className="square">0</button>
-                <button className="square">.</button>
-                <button className="square">+</button>
-                <button className="square">=</button>
+                <Button value="0"></Button>
+                <Button value="."></Button>
+                <Button value="+"></Button>
+                <Button value="="></Button>
             </div>
         </div>
     );

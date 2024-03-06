@@ -1,0 +1,19 @@
+.square {
+    width: 2em;
+    height: 2em;
+    margin: 1px;
+    font-size: 1.5em;
+    border: 1px solid #073c9f;
+    color: white;
+    background-color: #779EF5EF;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.square:hover {
+    background-color: #073c9f;
+}
+
+.square:active {
+    background-color: #073c9f;
+}
