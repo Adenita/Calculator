@@ -9,4 +9,4 @@ Equal button (=) to calculate the result.
 Input field to display the current result and history of actions.
 
 ## Screenshots
-<img src="calculator.png" alt="calculator-screenshot">
+<img src="calculator-new.png" alt="calculator-screenshot">
