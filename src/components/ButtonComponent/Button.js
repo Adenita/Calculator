@@ -1,4 +1,4 @@
 import './Button.css';
-export default function Button({value, onButtonClick}) {
-  return <button className="square" onClick={() => onButtonClick(value)}>{value}</button>
+export default function Button({value, onButtonClick, className}) {
+  return <button className={`circle ${className}`} onClick={() => onButtonClick(value)}>{value}</button>
 }

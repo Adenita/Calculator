@@ -1,19 +1,45 @@
-.square {
-    width: 3em;
-    height: 3em;
-    margin: 1px;
-    font-size: 1.5em;
-    border: 1px solid #073c9f;
-    color: white;
-    background-color: #779EF5EF;
+.circle {
+    align-self: center;
+    justify-self: center;
+
+    width: 110px;
+    height: 110px;
+    font-size: 3em;
+
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(122, 159, 245, 0.32);
+
+    font-weight: 500;
+    color: #073c9f;
+
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.square:hover {
-    background-color: #073c9f;
+.circle:hover {
+    background-color: rgba(146, 109, 180, 0.25);
 }
 
-.square:active {
-    background-color: #073c9f;
+.circle:active {
+    background-color: rgba(146, 109, 180, 0.25);
+}
+
+.red-text {
+    color: #ce2323;
+}
+
+.pink-text {
+    color: hotpink;
+}
+
+.pink-background {
+    color: white;
+    background: hotpink;
+}
+
+.wide-button {
+    width: 95%;
+    grid-column: span 2;
+    border-radius: 25%;
 }
